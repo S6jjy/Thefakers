@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAKERS ROCK BAND CAROUSEL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&family=Festive&family=Poppins:ital,wght@0,100;0,200;0,300;1,300&family=Rock+Salt&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <style>
+      * {
+        font-family: "Poppins", "Sans-serif";
+      }
+
+      body {
+        font-family: "Poppins", "Sans-serif";
+        min-height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        font-size: 1rem;
+        background-color: black;
+        background-image: img-responsive;
+      }
+      .navbar {
+        background-color: black !important;
+        box-shadow: 0rem 0.1rem 0.6rem #ccc;
+        margin: 0 10px;
+      }
+      h1 {
+        color: hotpink !important;
+        text-align: center;
+        font-size: 1rem !important;
+        padding: 0 10px;
+      }
+      h2 {
+        color: white;
+        margin: auto-flow;
+        text-align: left !important;
+      }
+      h5 {
+        color: hotpink;
+        opacity: 60%;
+      }
+      p {
+        font-size: 1rem;
+        color: white;
+        padding: 0 5px;
+      }
+      .glow {
+        color: #fff;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+            0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
+            0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+            0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+        }
+      }
+      .form-block {
+        margin-top: 1rem !important;
+        position: fixed;
+        top: 20%;
+        padding: 1rem;
+      }
+
+      .form-control {
+        max-height: 100vh;
+        position: fixed;
+      }
+      .form-label {
+        color: white;
+      }
+      .carousel-item {
+        max-height: inherit;
+        max-width: inherit;
+        margin: 2rem 0;
+        position: relative;
+        padding-top: 2rem auto;
+        border: 1rem ridge black !important;
+      }
+      #carouselExampleCaptions {
+        width: 100vw;
+        margin: 0 auto;
+      }
+      .accordion-flush {
+        padding: 1rem auto;
+      }
+      .accordian-item {
+        color: inherit;
+      }
+      .accordian-button {
+        color: inherit;
+      }
+
+      .accordion-body {
+        background-color: black;
+        color: white;
+        position: relative;
+      }
+      .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+        margin: 1rem auto;
+      }
+      .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1rem ridge black !important;
+      }
+      .main-footer {
+        font-size: 1rem;
+        max-height: 5%;
+        background-color: black;
+        color: grey !important;
+        position: sticky;
+        top: 100%;
+        opacity: 40%;
+      }
+    </style>
+  </head>
+
+  <body
+    class="home fluid-container bg-dark h-100"
+    style="
+      background-image: url(https://images.pexels.com/photos/4924569/pexels-photo-4924569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    "
+  >
+    <!--    Navbar Start	 -->
+
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+          <a
+            class="navbar-brand glow"
+            href="index.html"><img src="https://images.pexels.com/photos/63694/pexels-photo-63694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=50&w=1260" alt="Guitar Logo" width="50" height="40" class="d-inline-block ms-auto align-top" />
+            The Fakers Band</a
+          >
+          <img
+            src="https://images.pexels.com/photos/63694/pexels-photo-63694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=50&w=1260"
+            alt="Guitar Logo"
+            width="50"
+            height="40"
+            class="d-inline-block ms-auto align-top"
+          />
+          <span>
+            <h1>
+              U.K Tour 2022:Birmingham - 24/02/2022, | Leeds - 01/03/2022 | York
+              - 09/03/2022
+            </h1>
+          </span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.seetickets.com/"
+                  >Tickets</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">The Band</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- 		Navbar End 		 -->
+    <main>
+      <h1>
+        U.K Tour 2022:Birmingham - 24/02/2022, | Leeds - 01/03/2022 | York -
+        09/03/2022
+      </h1>
+
+      <!--   carousel content STARTS here    -->
+
+      <div class="container max-height d-flex align-items-center">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              class="btn btn-block"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.pexels.com/photos/7803597/pexels-photo-7803597.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
+                class="d-block w-100"
+                alt="ROCK CONCERT STAGE SHOW"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Fakers!</h5>
+                <p>London Music Festival!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.pexels.com/photos/1054715/pexels-photo-1054715.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
+                class="d-block w-100"
+                alt="THE FAKERS ON STAGE"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Fakers!</h5>
+                <p>London Music Festival!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.pexels.com/photos/690779/pexels-photo-690779.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
+                class="d-block w-100"
+                alt="THE FAKERS ON STAGE UNMASKED"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Fakers!</h5>
+                <p>London Music Festival!</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <h1>Meet the band..</h1>
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+      <div class="row"></div>
+      <p>
+        Acclaimed author and music journalists Harvey Kubernik and his brother
+        Kenneth pay tribute to The Band on two special anniversaries: the debut
+        of their first album, Music from Big Pink, 50 years ago, and the release
+        of Martin Scorsese's film The Last Waltz, hailed as the greatest concert
+        movie ever made, 40 years ago. The Story of The Band covers everything
+        from their collaborations with Bob Dylan through that farewell show,
+        which took place on Thanksgiving 1976. It features little-known and
+        previously unpublished interviews with members of The Band and those who
+        worked with them and knew them--including Ronnie Hawkins, Jerry Garcia,
+        Andrew Loog Oldham, and Bill Graham--as well as newly discovered
+        memorabilia and rare and never-before-seen photographs from the finest
+        rock photographers of the era. This is the ultimate book for all fans of
+        The Band and their era.
+      </p>
+      <br />
+      <h2 class="glow">Backstage</h2>
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+        reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+        exact original form, accompanied by English versions from the 1914
+        translation by H. Rackham.
+      </p>
+    </main>
+    <!-- Footer  -->
+    <div class="main-footer">
+      <footer>
+        <p class="text-center">
+          The Fakers Copyright &copy; 2022 SMUK productions
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
