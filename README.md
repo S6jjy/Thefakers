@@ -1,2 +1,0 @@
-# Thefakers
-rock band fakers
